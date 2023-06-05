@@ -27,7 +27,7 @@ You can install the required libraries using pip:
 
 ## Usage
 1. Clone this repository:
-  git clone https://github.com/your-username/image-classification.git
+'''git clone https://github.com/your-username/image-classification.git
  
 2. Download the CIFAR-10 dataset by visiting [this link](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) and place it in the project directory.
 
