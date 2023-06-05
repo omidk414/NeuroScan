@@ -23,21 +23,21 @@ To run this project, you need to have Python 3.x installed along with the follow
 - NumPy
 
 You can install the required libraries using pip:
-  pip install tensorflow keras numpy
+```pip install tensorflow keras numpy```
 
 ## Usage
 1. Clone this repository:
-'''git clone https://github.com/your-username/image-classification.git
+```git clone https://github.com/your-username/image-classification.git```
  
 2. Download the CIFAR-10 dataset by visiting [this link](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) and place it in the project directory.
 
 3. Extract the dataset using the following command:
-  tar -xf cifar-10-python.tar.gz
+```tar -xf cifar-10-python.tar.gz```
  
 4. Open a terminal or command prompt and navigate to the project directory.
 
 5. Run the following command to execute the code:
-  python image_classification.py
+```python image_classification.py```
  
 6. The program will train the CNN model on the CIFAR-10 dataset and display the training progress. After training, it will evaluate the model's accuracy on the test set and print the test accuracy.
 
