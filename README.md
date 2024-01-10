@@ -42,7 +42,7 @@ You can install the required libraries using pip:
 ## Results
 The image classification system achieved an impressive accuracy of % on the CIFAR-10 dataset, accurately classifying a diverse range of 10 different classes. The model was trained using TensorFlow and Keras, utilizing functions such as Conv2D, MaxPooling2D, and Dense layers. Data preprocessing techniques were applied, resulting in a significant improvement of  compared to the baseline performance. Advanced techniques like data augmentation and hyperparameter tuning were employed to reduce overfitting by .
 
-
-
+Citations:
+Sadok, M. (2021, August 8). Artificial Intelligence: A paradigm shift in the pharmaceutical industry - use case of cancer detection. Digitale Transformation - jetzt die Chancen aktiv nutzen! https://www.strategy-transformation.com/artificial-intelligence-a-paradigm-shift-in-the-pharmaceutical-industry-use-case-of-cancer-detection/ 
 
 
