@@ -9,6 +9,7 @@ This project implements an image classification system using Convolutional Neura
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
+- [Citations](#citations)
 
 ## Overview
 In this project, we utilize TensorFlow and Keras, popular deep learning libraries, to design, train, and evaluate a CNN model for image classification. The CIFAR-10 dataset consists of 60,000 32x32 color images divided into 10 classes, with 6,000 images per class. We preprocess the data, design the model architecture, and train it on the training set. Finally, we evaluate the model's performance on the test set.
@@ -42,7 +43,7 @@ You can install the required libraries using pip:
 ## Results
 The image classification system achieved an impressive accuracy of % on the CIFAR-10 dataset, accurately classifying a diverse range of 10 different classes. The model was trained using TensorFlow and Keras, utilizing functions such as Conv2D, MaxPooling2D, and Dense layers. Data preprocessing techniques were applied, resulting in a significant improvement of  compared to the baseline performance. Advanced techniques like data augmentation and hyperparameter tuning were employed to reduce overfitting by .
 
-Citations:
+## Citations
 Sadok, M. (2021, August 8). Artificial Intelligence: A paradigm shift in the pharmaceutical industry - use case of cancer detection. Digitale Transformation - jetzt die Chancen aktiv nutzen! https://www.strategy-transformation.com/artificial-intelligence-a-paradigm-shift-in-the-pharmaceutical-industry-use-case-of-cancer-detection/ 
 
 
