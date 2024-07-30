@@ -22,26 +22,27 @@ We utilize TensorFlow and Keras, two popular deep learning libraries, to design,
 ## Installation
 To run this project, you need to have Python 3.11 or below installed along with the following dependencies:
 
- **Install the required libraries:**
-    Create a virtual environment (optional but recommended):
+**Install the required libraries:**
+Create a virtual environment (optional but recommended):
     ```bash
     python -m venv env
     ```
 
-   Activate the virtual environment:
-    - On Windows:
+Activate the virtual environment:
+- On Windows:
       ```bash
       env\Scripts\activate
       ```
-    - On macOS/Linux:
+- On macOS/Linux:
       ```bash
       source env/bin/activate
       ```
 
-   Install the libraries from `requirements.txt`:
+Install the libraries from `requirements.txt`:
     ```bash
     pip install -r requirements.txt
     ```
+    
 ## Image Processing
 
 ### Binary Thresholding
