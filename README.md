@@ -1,7 +1,8 @@
 # NeuroScan: Machine Learning Application for Brain Tumor Detection 
 
-This project implements an image classification system using Convolutional Neural Networks (CNNs) to classify images from the CIFAR-10 dataset. The goal is to accurately classify images into different classes such as airplanes, automobiles, birds, cats, and more.
-We utilize TensorFlow and Keras, popular deep learning libraries, to design, train, and evaluate a CNN model for image classification. The CIFAR-10 dataset consists of 60,000 32x32 color images divided into 10 classes, with 6,000 images per class. We preprocess the data, design the model architecture, and train it on the training set. Finally, we evaluate the model's performance on the test set.
+This project implements an image classification system using Convolutional Neural Networks (CNNs) for brain tumor detection. The goal is to accurately identify and classify brain tumors from medical imaging datasets, such as MRI scans.
+We utilize TensorFlow and Keras, two popular deep learning libraries, to design, train, and evaluate a CNN model tailored for medical image classification. The dataset consists of medical images where each image is classified based on the presence or absence of a brain tumor.
+
 
 ## Table of Contents
 
