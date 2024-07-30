@@ -24,22 +24,22 @@ To run this project, you need to have Python 3.11 or below installed along with 
 
 **Install the required libraries:**
 Create a virtual environment (optional but recommended):
-    ```bash
+    ```
     python -m venv env
     ```
 
 Activate the virtual environment:
 - On Windows:
-      ```bash
+      ```
       env\Scripts\activate
       ```
 - On macOS/Linux:
-      ```bash
+      ```
       source env/bin/activate
       ```
 
 Install the libraries from `requirements.txt`:
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
     
