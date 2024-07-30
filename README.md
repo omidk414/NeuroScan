@@ -18,6 +18,7 @@ We utilize TensorFlow and Keras, two popular deep learning libraries, to design,
    - [Naive Bayes Classifier](#naive-bayes-classifier)
 10. [Research Mentors](#research-mentors)
 11. [Citations](#citations)
+12. [Disclaimer](#disclaimer)
 
 ## Installation
 To run this project, you need to have Python 3.11 or below installed along with the following dependencies:
@@ -175,5 +176,14 @@ This project was guided by Research Mentors Dr. Mokhtar Sadok, Dr. Indranil Mukh
 
 ## Citations
 Sadok, M. (2021, August 8). Artificial Intelligence: A paradigm shift in the pharmaceutical industry - use case of cancer detection. Digitale Transformation - jetzt die Chancen aktiv nutzen! https://www.strategy-transformation.com/artificial-intelligence-a-paradigm-shift-in-the-pharmaceutical-industry-use-case-of-cancer-detection/ 
+
+## Disclaimer
+
+The "NeuroScan" machine learning application for brain tumor detection is intended for research and educational purposes only. The results produced by this system should not be used as a substitute for professional medical diagnosis or treatment. While the model is designed to assist in identifying potential brain tumors, it is not guaranteed to be accurate or reliable in all cases.
+
+Users are advised to consult with medical professionals for any medical decisions or diagnoses. The authors and contributors of this project disclaim any liability for the accuracy of the results or any consequences arising from the use of this application.
+
+By using this application, you agree to use the results responsibly and in conjunction with professional medical advice.
+
 
 
