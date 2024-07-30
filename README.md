@@ -19,9 +19,6 @@ We utilize TensorFlow and Keras, two popular deep learning libraries, to design,
 10. [Research Mentors](#research-mentors)
 11. [Citations](#citations)
 
-## Overview
-In this project, we utilize TensorFlow and Keras, popular deep learning libraries, to design, train, and evaluate a CNN model for image classification. The CIFAR-10 dataset consists of 60,000 32x32 color images divided into 10 classes, with 6,000 images per class. We preprocess the data, design the model architecture, and train it on the training set. Finally, we evaluate the model's performance on the test set.
-
 ## Installation
 To run this project, you need to have Python 3.11 or below installed along with the following dependencies:
 
