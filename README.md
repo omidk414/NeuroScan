@@ -1,26 +1,54 @@
-# NeuroScan: Machine Learning Application for Brain Tumor Detection 
+# NeuroScan: AI-Powered Brain Tumor Detection
 
-This project implements an image classification system using Convolutional Neural Networks (CNNs) for brain tumor detection. The goal is to accurately identify and classify brain tumors from medical imaging datasets, such as MRI scans.
-We utilize TensorFlow and Keras, two popular deep learning libraries, to design, train, and evaluate a CNN model tailored for medical image classification. The dataset consists of medical images where each image is classified based on the presence or absence of a brain tumor.
+## Problem & Motivation
 
+Brain tumors are a significant contributor to global morbidity and mortality. Early detection is crucial for improving prognosis, but diagnosing brain tumors through manual analysis of MRI scans is time-consuming, requires significant expertise, and is prone to human error. As the volume of medical imaging data grows, healthcare professionals face challenges in providing timely and consistent diagnoses.
+
+NeuroScan addresses this challenge by leveraging advanced deep learning techniques to automatically detect and classify brain tumors from MRI scans, ensuring faster and more reliable diagnoses while improving the efficiency of healthcare systems.
+
+---
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-4. [Image Processing](#image-processing)
-   - [Thresholding](#thresholding)
+1. [Project Overview](#project-overview)
+2. [Data Sources & Methodology](#data-sources--methodology)
+3. [Getting Started](#getting-started)
+   - [Installation](#installation)
+   - [Dataset Preparation](#dataset-preparation)
+   - [Running the Application](#running-the-application)
+4. [System Architecture](#system-architecture)
+5. [Image Preprocessing Techniques](#image-preprocessing-techniques)
+   - [Binary Thresholding](#binary-thresholding)
    - [Erosion](#erosion)
    - [Dilation](#dilation)
-5. [Model Performance](#model-performance)
+6. [Model Evaluation & Results](#model-evaluation--results)
    - [Convolutional Neural Network (CNN)](#convolutional-neural-network-cnn)
    - [Support Vector Machine (SVM)](#support-vector-machine-svm)
    - [Naive Bayes Classifier](#naive-bayes-classifier)
-10. [Research Mentors](#research-mentors)
-11. [Citations](#citations)
-12. [Disclaimer](#disclaimer)
+7. [Key Learnings & Impact](#key-learnings--impact)
+8. [Future Development Roadmap](#future-development-roadmap)
+9. [Acknowledgements](#acknowledgements)
+10. [References & Resources](#references--resources)
+11. [Disclaimer](#disclaimer)
 
-## Installation
+---
+
+## Project Overview
+
+NeuroScan utilizes cutting-edge deep learning methods to automate the detection and classification of brain tumors from MRI images. Our mission is to empower medical professionals with a reliable tool that enhances diagnostic speed, accuracy, and consistency.
+
+---
+
+## Data Sources & Methodology
+
+NeuroScan leverages publicly available medical imaging datasets such as the **Brain Tumor Dataset**, which includes MRI scans labeled as healthy or tumor-positive. The dataset undergoes preprocessing using techniques like thresholding, erosion, and dilation to improve image quality and enhance model accuracy.
+
+Our supervised learning approach employs **Convolutional Neural Networks (CNNs)** to capture spatial features critical for accurate tumor classification.
+
+---
+
+## Getting Started
+### Installation
 To run this project, you need to have Python 3.11 or below installed along with the following dependencies:
 
 **Install the required libraries:**
@@ -43,6 +71,14 @@ Install the libraries from `requirements.txt`:
     ```
     pip install -r requirements.txt
     ```
+
+---
+
+## System Architecture
+
+NeuroScan's architecture employs CNNs trained on preprocessed MRI images stored in a structured dataset pipeline. It includes modules for preprocessing, model training (CNN, SVM, Naive Bayes), prediction, and output generation for diagnostic results.
+
+---
     
 ## Image Processing
 
@@ -98,7 +134,7 @@ Dilation expands the boundaries of foreground objects, which helps in closing sm
 
 These image processing techniques—thresholding, erosion, and dilation—are used to preprocess the image by separating objects from the background and extracting specific regions of interest based on intensity values. By combining these operations, we enhance the quality of the image for further analysis or object detection.
 
-## Model Performance
+## Model Evaluation 
 
 ### Convolutional Neural Network (CNN)
 
@@ -171,19 +207,52 @@ The Naive Bayes classifier achieved an accuracy of approximately 64.84%. This mo
 
 These results illustrate the strengths and limitations of each classification approach and help in understanding their applicability to different types of image classification tasks.
 
-## Research Mentors
-This project was guided by Research Mentors Dr. Mokhtar Sadok, Dr. Indranil Mukhopadhyay, and Dr. Mohammad Akram Hossain.
+---
 
-## Citations
-Sadok, M. (2021, August 8). Artificial Intelligence: A paradigm shift in the pharmaceutical industry - use case of cancer detection. Digitale Transformation - jetzt die Chancen aktiv nutzen! https://www.strategy-transformation.com/artificial-intelligence-a-paradigm-shift-in-the-pharmaceutical-industry-use-case-of-cancer-detection/ 
+## Key Learnings & Impact
+
+This project demonstrated the importance of effective image preprocessing and parameter tuning in deep learning applications for medical diagnostics. NeuroScan’s flexibility allows scalability into clinical environments, significantly enhancing diagnostic workflows.
+
+---
+
+## Future Development Roadmap
+
+Future enhancements include:
+
+- **Dataset Expansion**: Integrating diverse MRI data to improve generalizability.
+- **Advanced Models**: Exploring transfer learning and hybrid architectures.
+- **Real-Time Integration**: Developing real-time processing capabilities for clinical use.
+
+---
+
+## Acknowledgements
+
+Special thanks to:
+
+- **Dr. Mokhtar Sadok**, for insights into neural network optimization for medical imaging.
+- **Dr. Indranil Mukhopadhyay**, for guidance on advanced data preprocessing techniques.
+- **Dr. Mohammad Akram Hossain**, for expertise in deep learning architectures applied to healthcare.
+- Friends, family members, colleagues who participated as beta testers and provided valuable feedback during development.
+- Authors of key research articles listed below that informed our approach.
+
+---
+
+## References & Resources
+
+1. ["Brain Tumor Detection Using CNN"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11353951/)
+2. ["Efficient Brain Tumor Classification Framework"](https://www.aimspress.com/article/doi/10.3934/mbe.2023528)
+3. ["MRI-Based Brain Tumor Diagnosis with Transfer Learning"](https://www.mdpi.com/2076-3417/10/6/1999)
+4. ["Automated Detection of Brain Tumors Using CNNs"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10238087/)
+5. ["Brain Tumor Classification Using Pixel Distribution"](https://www.nature.com/articles/s41598-020-59055-x)
+
+---
 
 ## Disclaimer
 
-The "NeuroScan" machine learning application for brain tumor detection is intended for research and educational purposes only. The results produced by this system should not be used as a substitute for professional medical diagnosis or treatment. While the model is designed to assist in identifying potential brain tumors, it is not guaranteed to be accurate or reliable in all cases.
+The NeuroScan application is designed solely for educational purposes and research exploration into AI-based medical diagnostics. It should not replace professional medical advice or diagnosis.
 
-Users are advised to consult with medical professionals for any medical decisions or diagnoses. The authors and contributors of this project disclaim any liability for the accuracy of the results or any consequences arising from the use of this application.
+Users must consult healthcare professionals before making any medical decisions based on this tool's outputs.
 
-By using this application, you agree to use the results responsibly and in conjunction with professional medical advice.
+The authors disclaim liability related to accuracy or consequences arising from the use of NeuroScan results.
 
-
-
+By using this application, users acknowledge these terms and agree to exercise caution when interpreting its outputs alongside professional medical consultation.
