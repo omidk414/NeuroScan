@@ -172,7 +172,7 @@ The Naive Bayes classifier achieved an accuracy of approximately 64.84%. This mo
 These results illustrate the strengths and limitations of each classification approach and help in understanding their applicability to different types of image classification tasks.
 
 ## Research Mentors
-This project was guided by Research Mentors Dr. Mokhtar Sadok, Dr. Indranil Mukhopadhyay, and Dr. Mohammad Akram Hossain during my internship as a Data Science and Machine Learning Intern at Ascend Technology Inc.
+This project was guided by Research Mentors Dr. Mokhtar Sadok, Dr. Indranil Mukhopadhyay, and Dr. Mohammad Akram Hossain.
 
 ## Citations
 Sadok, M. (2021, August 8). Artificial Intelligence: A paradigm shift in the pharmaceutical industry - use case of cancer detection. Digitale Transformation - jetzt die Chancen aktiv nutzen! https://www.strategy-transformation.com/artificial-intelligence-a-paradigm-shift-in-the-pharmaceutical-industry-use-case-of-cancer-detection/ 
